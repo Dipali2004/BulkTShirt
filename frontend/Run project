@@ -1,0 +1,8 @@
+cd backend/auth-service
+..\..\frontend\apache-maven-3.9.6\bin\mvn.cmd spring-boot:run
+
+cd backend/core-service
+..\..\frontend\apache-maven-3.9.6\bin\mvn.cmd spring-boot:run
+
+cd frontend
+npm.cmd start

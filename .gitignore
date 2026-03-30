@@ -1,0 +1,49 @@
+# Spring Boot
+backend/**/target/
+backend/**/build/
+backend/**/out/
+backend/**/.gradle/
+backend/**/.settings/
+backend/**/.project
+backend/**/.classpath
+backend/**/.factorypath
+backend/**/.springBeans
+backend/**/*.iml
+backend/**/*.ipr
+backend/**/*.iws
+backend/**/.sts4-cache
+backend/**/.apt_generated
+backend/**/bin/
+
+# Node.js / Frontend
+frontend/**/node_modules/
+frontend/**/dist/
+frontend/**/build/
+frontend/**/.next/
+frontend/**/.env
+frontend/**/.env.local
+frontend/**/.env.development.local
+frontend/**/.env.test.local
+frontend/**/.env.production.local
+frontend/**/npm-debug.log*
+frontend/**/yarn-debug.log*
+frontend/**/yarn-error.log*
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Other
+**/apache-maven-*/
+**/.mvn/
+**/mvnw
+**/mvnw.cmd
+**/target/
+**/build/
+**/node_modules/
+**/out/
+**/.gradle/
